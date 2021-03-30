@@ -71,6 +71,19 @@ a:hover{
     height: 75px;
 }
 
+.buttons{
+    
+    grid-area: buttons;
+    padding-left: 120px;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px 14px;
+    border: none;
+
+}
+
 form{
 
 grid-area: form;
@@ -102,13 +115,15 @@ input:focus{
 .box2{
     background-color: white;
     display: grid;
-    grid-template-rows: 25% 20% 15% 15%;
+    grid-template-rows: 25% 20% 15% 5% 5%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     ". . ."
     ". image ."
     ". form ."
-    ". . .";
+    ". buttons ."
+    ". . ."
+    ;
     
 }
 
