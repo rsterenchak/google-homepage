@@ -7,16 +7,32 @@ body    {
 
 }
 
+nav{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.seg1{
+
+    margin-right: auto;
+}
+
+.seg2{
+    
+    margin-left: auto;
+}
 
 ul  {
     
     display: flex;
-    justify-content: flex-end;
     list-style-type: none;
 
 }
 
 div li a:link{
+
     font-size: 12px;
 
 }
@@ -24,7 +40,6 @@ div li a:link{
 li{
 
     padding: 7px;
-    
 
 }
 
@@ -69,7 +84,7 @@ a:hover{
 .image{
 
     grid-area: image;
-    padding-left: 115px;
+    padding-right: 170px;
     width: 100px;
     height: 75px;
 }
@@ -118,7 +133,7 @@ a:hover{
 .buttons{
     
     grid-area: buttons;
-    padding-left: 120px;
+    /* padding-left: 120px; */
     padding-top: 0px;
 }
 
@@ -126,7 +141,6 @@ button{
     border-radius: 5px;
     padding: 10px 14px;
     border-width: 0px;
-    
 
 }
 
@@ -165,19 +179,14 @@ input:focus{
 
 }
 
+
 .box2{
-    background-color: white;
-    display: grid;
-    grid-template-rows: 25% 20% 10%;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: 
-    ". . ."
-    ". image ."
-    ". form ."
-    ". buttons ."
-    ". . ."
-    ;
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2em;
+    padding-top: 125px;
 }
 
 
@@ -186,34 +195,13 @@ input:focus{
     
 }
 
-.box4{
-
-    grid-area: box4;
-
-}
-
-.box5{
-
-    grid-area: box5;
-    padding-right: 50px;
-}
-
 .foot_links{
+    padding-top: 15px;
     color: rgb(160, 160, 160);
-    display: grid;
-    grid-template-columns: 4fr 1fr 3fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    ". . ."
-    "box4 . box5"
-    ;
-       
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 12px;
+    padding-right: 37px;
 }
 
-#wholepage{
-
-    min-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
