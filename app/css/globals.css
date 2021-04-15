@@ -79,6 +79,26 @@ a:hover{
 
 }
 
+.form{
+
+    display: flex;
+
+
+}
+
+.searchIcon{
+    padding-top: 13px;
+    padding-left: 13px;
+
+}
+
+.search{
+    
+    height: 15px;
+    width: 15px;
+
+}
+
 .accountItem{
 
     margin-top: -7px;
