@@ -96,7 +96,7 @@ a:hover{
     
     grid-area: buttons;
     padding-left: 120px;
-    padding-top: 35px;
+    padding-top: 0px;
 }
 
 button{
@@ -137,14 +137,14 @@ input:focus{
 .box2{
     background-color: white;
     display: grid;
-    grid-template-rows: 25% 20% 30%;
+    grid-template-rows: 25% 20% 10%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     ". . ."
     ". image ."
     ". form ."
-    ". . ."
     ". buttons ."
+    ". . ."
     ;
     
 }
