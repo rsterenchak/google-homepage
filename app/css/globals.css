@@ -71,10 +71,32 @@ a:hover{
     height: 75px;
 }
 
+.imageMain{
+
+    height: 400px;
+    width: 300px;
+
+
+}
+
+.accountItem{
+
+    margin-top: -7px;
+    margin-left: 8px;
+
+
+}
+.accountImage{
+    
+    border-radius: 50%;
+
+}
+
 .buttons{
     
     grid-area: buttons;
     padding-left: 120px;
+    padding-top: 35px;
 }
 
 button{
@@ -115,14 +137,14 @@ input:focus{
 .box2{
     background-color: white;
     display: grid;
-    grid-template-rows: 25% 20% 15% 5% 5%;
+    grid-template-rows: 25% 20% 30%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     ". . ."
     ". image ."
     ". form ."
-    ". buttons ."
     ". . ."
+    ". buttons ."
     ;
     
 }
