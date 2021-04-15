@@ -16,12 +16,15 @@ ul  {
 
 }
 
+div li a:link{
+    font-size: 12px;
 
+}
 
 li{
 
     padding: 7px;
-
+    
 
 }
 
@@ -101,7 +104,7 @@ a:hover{
 
 .accountItem{
 
-    margin-top: -7px;
+    margin-top: -8px;
     margin-left: 8px;
 
 
@@ -122,8 +125,16 @@ a:hover{
 button{
     border-radius: 5px;
     padding: 10px 14px;
-    border: none;
+    border-width: 0px;
+    
 
+}
+
+button:hover{
+
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    
 }
 
 form{
@@ -188,7 +199,7 @@ input:focus{
 }
 
 .foot_links{
-    color: grey;
+    color: rgb(160, 160, 160);
     display: grid;
     grid-template-columns: 4fr 1fr 3fr;
     grid-template-rows: 1fr 1fr;
@@ -196,6 +207,13 @@ input:focus{
     ". . ."
     "box4 . box5"
     ;
-    
-    
+       
+}
+
+#wholepage{
+
+    min-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
